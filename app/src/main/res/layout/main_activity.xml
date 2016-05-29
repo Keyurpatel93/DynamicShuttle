@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitCenter"
+        android:id="@+id/MobilityLogoView"
+
+        />
+    <TextView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dynamic Shuttle"
+        android:background="#00BFFF"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+        android:gravity="center"/>
+    <TextView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shuttle Driver Device"
+        android:background="#708090"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+
+    <Button
+        android:layout_marginTop="80dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Start Scanning"
+        android:id="@+id/startScanningBtn"
+        android:background="#00BFFF"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:clickable="true"
+        />
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="View Statistics"
+        android:id="@+id/viewStatisticsBtn"
+        android:background="#00BFFF"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:clickable="true"
+        />
+
+</LinearLayout>
