@@ -23,7 +23,7 @@ The Dynamic Shuttle app is a complementary app for the Dynamic Shuttle Ride app.
 - android.permission.READ_EXTERNAL_STORAGE
 
 
-Need read/write permission to read and write to a xml file that stores data for the application. The xml file called “cardata.xml” which is located at the root of the internal storage, stores settings data (seat position, constraints) for enrolled users.
+Need read/write permission to read and write to a json file that stores data for the application. The json file called “DynamicShuttleRides.txt” which is located at the root of the internal storage, stores information about the rides the shuttle has processed. This is needed to report the statistic about the shuttle as the ride data needs to be saved permanently on the device.
 
 ## License
 Licensed under the BSD license.
