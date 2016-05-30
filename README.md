@@ -29,4 +29,4 @@ Need read/write permission to read and write to a xml file that stores data for 
 Licensed under the BSD license.
 
 ##Screenshot
-![Alt text](https://github.com/Keyurpatel93/DynamicShuttle-/blob/master/DynamicShuttle.png?raw=true "Screenshot")
+![Alt text](https://github.com/Keyurpatel93/DynamicShuttle/blob/master/DynamicShuttle.png?raw=true "Screenshot")
